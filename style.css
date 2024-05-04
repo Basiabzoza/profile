@@ -1,0 +1,59 @@
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: italic;
+  color: white;
+  /* text-align: center; */
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: 15px;
+  font-style: normal;
+  color: white;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: italic;
+  color: red;
+}
+
+i{
+  font-size: 50px;
+  color: white;
+}
+
+#links {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  display: flex;
+  justify-content:center;
+  width: 100%;
+  gap: 2rem;
+
+}
+
+
+#photo {
+  width: 400px;
+  border-radius: 50%;
+
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto; */
+
+}
+body
+{
+  position: relative;
+  height: 100vh;
+background-color: rgba(0,0,0,0.7);
+background-blend-mode: darken;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
